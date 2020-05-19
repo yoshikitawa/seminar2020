@@ -1,0 +1,16 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Monokai",
+    //"workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#aaaaaa",
+        "statusBar.foreground": "#090909",
+        "titleBar.activeBackground": "#DFDFDF",
+        "titleBar.inactiveBackground": "#f6f6f6",
+        "titleBar.activeForeground": "#090909",
+        "titleBar.inactiveForeground": "#090909"
+    },
+    "explorer.confirmDelete": false
+}
