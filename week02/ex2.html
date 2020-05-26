@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script>
+      function calc(){
+        var a = document.getElementById('height').value;
+        a = Number(a);
+        var b = document.getElementById('weight').value;
+        b = Number(b);
+        var c = weight/(height*height)*100;
+        document.getElementById('bmi-result').value =c;
+      }
+    </script>
+</head>
+
+<body>
+  身長：<input id="height" type="text" value="">cm <br> 
+  体重：<input id="weight" type="text" value="">kg <br>
+  <button onclick="calc()">計算</button> <br>
+  BMIは<input id="bmi-result" type="text" value="" >です。
+</body>
+
+</html>
